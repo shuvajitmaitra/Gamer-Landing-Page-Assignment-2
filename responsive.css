@@ -23,14 +23,25 @@
     width: 80%;
     margin: auto;
 }
+.banner-heading{
+    font-size: 4rem;
+
+}
 
 .banner-image{
     width: 80%;
     margin:1.5rem auto;
 }
 
-
-
+.card-container{
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}
+.single-card{
+ width: 15rem;
+}
 
 
 
@@ -90,7 +101,15 @@
         
     }
    
-
+   .card-container{
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.single-card{
+ width: 18rem;
+ flex-basis: 18rem;
+}
 
 
 
