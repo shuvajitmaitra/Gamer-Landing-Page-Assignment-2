@@ -12,9 +12,22 @@
         flex-direction: column;
     }
 
+/* banner responsive */
 
+.banner-section{
+    flex-direction: column-reverse;
+    justify-content: center;
+}
 
+.banner-content{
+    width: 80%;
+    margin: auto;
+}
 
+.banner-image{
+    width: 80%;
+    margin:1.5rem auto;
+}
 
 
 
