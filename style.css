@@ -53,7 +53,14 @@ nav {
 .nav-menu .second-ul {
   gap: 1rem;
 }
-
+.first-ul:hover{
+    cursor: pointer;
+    color: #f948b2;
+}
+.second-ul:hover{
+    cursor: pointer;
+    color: #f948b2;
+}
 .fa-youtube {
   color: #f61c0d;
 }

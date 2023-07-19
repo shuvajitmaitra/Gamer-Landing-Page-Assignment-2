@@ -68,74 +68,44 @@
   .promotion-description {
     text-align: center;
   }
-  .genres{
-    margin: 0;
+  .genres {
+    width: 100%;
+    margin: auto;
   }
-    .genres-section{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        justify-self: center;
-    }
+  .genres-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .genres h4 {
+    padding-left: 0.1rem;
+  }
+  .genres img {
+    width: 2rem;
+  }
   .etc-section {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-
-    }
-    
-    .social-links{
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);      
-    }
-    .policy{
-        width: 70%;
-        margin: auto;
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
 
-  .copyright{
+  .social-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .policy {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .copyright {
     width: 50%;
     margin: auto;
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Medium screen responsive */
-
+/* Medium screen responsive 567px to 992px  */
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
   .navbar {
@@ -155,7 +125,7 @@
     flex-basis: 18rem;
   }
 
-   .promotion-section {
+  .promotion-section {
     width: 80%;
     margin: auto;
     flex-direction: column;
@@ -181,15 +151,4 @@
   .promotion-description {
     text-align: center;
   }
-
- 
-
-
-
-
-
-
-
-
-
 }
