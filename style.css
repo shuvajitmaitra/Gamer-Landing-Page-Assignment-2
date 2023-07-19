@@ -313,15 +313,18 @@ nav {
 }
 
 .genres{
-
-    background-color: #e893cf;
     border-radius: 2rem;
     display: flex;
     align-items: center;
     margin: 2rem 1rem 0 0;
     flex-basis: 200px;
 }
-
+.genres:hover {
+    border: 2px solid  #f948b2;
+}
+.genres:hover h4{
+    color: #f948b2;
+}
 .genres h4{
     padding-left: .5rem;
     font-size: .8rem;
@@ -330,4 +333,58 @@ nav {
 }
 .genres img{
    width: 50px;
+}
+
+
+/* footer section start  */
+
+footer{
+    width: 100%;
+    background-color: #0b0223;
+    text-align: center;
+    padding-bottom: 3rem ;
+}
+
+.footer-logo-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.logo-container .footer-logo{
+    color: white;
+}
+
+.etc-section {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.etc-section a{
+  text-decoration: none;
+  color: #FFF;
+text-align: center;
+font-size: 1.125rem;
+font-weight: 600;
+margin: 1rem;
+}
+
+.social-links i{
+    margin: 2rem;
+    color: white;
+    font-size: 2rem;
+}
+.social-links a{
+   text-decoration: none;
+}
+
+.policy a{
+  margin: 1rem;
+  font-size: .8rem;
+  text-decoration: none;
+  color: white;
+}
+
+.copyright{
+    margin-top: 2rem;
+    color: white;
 }

@@ -68,6 +68,36 @@
   .promotion-description {
     text-align: center;
   }
+  .genres{
+    margin: 0;
+  }
+    .genres-section{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-self: center;
+    }
+  .etc-section {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+
+    }
+    
+    .social-links{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);      
+    }
+    .policy{
+        width: 70%;
+        margin: auto;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+
+  }
+
+  .copyright{
+    width: 50%;
+    margin: auto;
+  }
 }
 
 
@@ -152,7 +182,7 @@
     text-align: center;
   }
 
-
+ 
 
 
 
